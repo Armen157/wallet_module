@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.form-block--add-wallet form {
+    width: 100%;
+}
+.btn--fb-login {
+    background-color: #1977f2;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius:7px;
+}
+
+.btn--fb-login:hover {
+    opacity: .9;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #333333;
+    margin-left: 20px;
+}
+
