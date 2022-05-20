@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Validation\WalletRequest;
-use App\Repositories\WalletRepository;
+use App\Repositories\IWalletRepository;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -11,7 +11,7 @@ class WalletController extends Controller
 {
     protected $wallet = null;
 
-    public function __construct(WalletRepository $wallet)
+    public function __construct(IWalletRepository $wallet)
     {
         $this->wallet = $wallet;
     }
